@@ -36,11 +36,24 @@ public class Ball : MonoBehaviour {
 
 	public void Reset ()
 	{
+		gameObject.SetActive(true);
+
 		RigidBody.position = new Vector3(x:0f, y:0.2f, z:0f);
 		RigidBody.velocity = new Vector3(x:0f, y:0.0f, z:0f);
-
-		gameObject.SetActive(true);
 	}
+
+	public void Score (GameObject gameObject, Collision collision)
+	{
+		gameObject.SetActive(false);
+	}
+
+	void OnCollisionEnter(Collision collision) 
+	{
+		if (collision.gameObject.name == "Pin")
+		{
+			Score (gameObject, collision);
+		}
+	} 
 
 	#endregion
 }
