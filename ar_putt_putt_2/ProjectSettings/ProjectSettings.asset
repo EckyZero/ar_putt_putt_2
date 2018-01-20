@@ -291,7 +291,8 @@ PlayerSettings:
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
   cameraUsageDescription: Camera is used by this app for Augmented Reality
-  locationUsageDescription: 
+  locationUsageDescription: Location is used by this app to determine where to place
+    the flying objects
   microphoneUsageDescription: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144

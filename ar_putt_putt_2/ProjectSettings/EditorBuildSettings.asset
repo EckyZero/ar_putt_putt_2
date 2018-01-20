@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/main.unity
     guid: e6755dc9e79364bb6860a22972a0aedd
+  - enabled: 1
+    path: Assets/ufo_scene.unity
+    guid: f12b15c844cf54ef590ebca0f3a3e564
