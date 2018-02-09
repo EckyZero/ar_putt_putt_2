@@ -104,6 +104,10 @@ public class AugmentedScript : MonoBehaviour
 		targetPosition = transform.position;
 		originalPosition = transform.position;
 
+		// Set plane at some known lat/lon
+		// current user's lat/lon
+		// monitor location
+
 	}
 
 	void Update(){
